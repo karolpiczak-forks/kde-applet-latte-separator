@@ -88,8 +88,8 @@ PlasmoidItem {
         width: horizontal ? 1 : thickness
         height: !horizontal ? 1 : thickness
 
-        color: enforceLattePalette ? latteBridge.palette.textColor : Kirigami.Theme.textColor
-        opacity: 0.4
+        color: "#031e29"
+        opacity: 0.25
         visible: !planar
     }
 }
